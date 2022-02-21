@@ -1,10 +1,13 @@
 pipeline{
     agent any
     stages {
-        stage("staging"){
+        stage("aaaaaaaa"){
+            steps{
 
+            step{
                 echo "dupa"
-
+                }
+            }
         }
 
     }
