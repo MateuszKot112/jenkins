@@ -2,19 +2,16 @@ pipeline{
 agent any
 stages {
     stage("build"){
-    steps{
-        step{
-            echo "Im building"}
+    echo "dupa"
     }
-    }
-    stage("test"){
-    steps{
-            step{
-                echo "Im building"}
-        }
-        }
+//     stage("test"){
+//     steps{
+//             step{
+//                 echo "Im building"}
+//         }
+//         }
     stage("delpoy"){
-    steps{}
+    steps{
             step{
                 echo "Im building"}
         }
