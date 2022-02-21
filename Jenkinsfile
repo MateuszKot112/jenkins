@@ -17,7 +17,3 @@ stages {
         }
         }
     }
-    post{
-        always{
-            echo "dupa"}
-            }
