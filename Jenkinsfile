@@ -1,20 +1,10 @@
 pipeline{
-agent any
-stages {
-    stage("build"){
-    echo "dupa"
-    }
-//     stage("test"){
-//     steps{
-//             step{
-//                 echo "Im building"}
-//         }
-//         }
-    stage("delpoy"){
-    steps{
+    agent any
+    stages {
+        stages{
             step{
-                echo "Im building"}
+                echo "dupa"
+            }
         }
-        }
-    }
+
 }
