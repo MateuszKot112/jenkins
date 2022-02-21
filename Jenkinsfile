@@ -2,12 +2,16 @@ pipeline{
     agent any
     stages {
         stage("aaaaaaaa"){
-            steps{
 
-            step{
-                echo "dupa"
-                echo "dudududud"
-                }
+
+            steps{
+                sh 'java Main.java'
+
+            }
+        }
+        stage("Test"){
+            steps{
+                echo "Teeeesstttt"
             }
         }
 
