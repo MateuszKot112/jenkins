@@ -24,4 +24,3 @@ stages {
         always{
             echo "dupa"}
             }
-}}
