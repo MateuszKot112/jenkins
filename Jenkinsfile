@@ -1,8 +1,21 @@
 pipeline{
 agent any
 stages {
-    stage("build"){ echo "Im building"}
-    stage("test"){echo "Im testin"}
-    stage("deploy"){"Im deploying"}
+    stage("build"){
+        step{
+            echo "Im building"}
     }
+    stage("test"){
+            step{
+                echo "Im building"}
+        }
+    stage("delpoy"){
+            step{
+                echo "Im building"}
+        }
+    }
+    post{
+        always{
+            echo "dupa"}
+            }
 }
