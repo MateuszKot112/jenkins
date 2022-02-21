@@ -6,6 +6,7 @@ pipeline{
 
             step{
                 echo "dupa"
+                echo "dudududud"
                 }
             }
         }
